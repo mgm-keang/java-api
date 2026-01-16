@@ -1,0 +1,7 @@
+services:
+  web-api-product:
+    build: .
+    container_name: web-api-product
+    ports:
+      - "8080:8080"
+    restart: always
